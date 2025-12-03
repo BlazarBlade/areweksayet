@@ -307,7 +307,7 @@ td.maybe::before {
 }
 
 .features-table {
-  width: 60%;
+  width: 75%;
   border-collapse: collapse;
   table-layout: fixed;
   margin-bottom: 24px;
@@ -365,7 +365,17 @@ td.maybe::before {
   background: var(--table-header-bg);
   text-align: left;
   font-weight: 600;
+  width: 75%;
 }
+
+@media (max-width: 400px) {
+
+  .features-table,
+  .resources-table {
+    width: 100%;
+  }
+}
+
 
 .theme-toggle {
   position: fixed;
