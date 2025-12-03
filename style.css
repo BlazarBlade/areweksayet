@@ -307,12 +307,48 @@ td.maybe::before {
 }
 
 .features-table {
+  width: 60%;
+  border-collapse: collapse;
+  table-layout: fixed;
   margin-bottom: 24px;
   /* adjust gap */
 }
 
+
+.features-table th,
+.features-table td {
+  border: none;
+  padding: 8px;
+}
+
+.features-table th {
+  background: var(--table-header-bg);
+  text-align: left;
+  font-weight: 600;
+}
+
+.features-table td:first-child,
+.features-table th:first-child {
+  width: 36%;
+}
+
+.features-table td:nth-child(2),
+.features-table th:nth-child(2),
+.features-table td:nth-child(3),
+.features-table th:nth-child(3) {
+  width: 12%;
+  text-align: center;
+}
+
+.features-table td:last-child,
+.features-table th:last-child {
+  width: 40%;
+}
+
+
+
 .resources-table {
-  width: 100%;
+  width: 60%;
   border-collapse: collapse;
   margin-top: 12px;
   margin-bottom: 24px;
@@ -320,8 +356,7 @@ td.maybe::before {
 
 .resources-table th,
 .resources-table td {
-  border: 1px solid #ccc;
-  border: 1px solid var(--table-border);
+  border: none;
   padding: 8px;
 }
 
