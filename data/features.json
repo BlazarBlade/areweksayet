@@ -1,0 +1,1561 @@
+[
+    {
+        "name": "Meta information",
+        "meta": {
+            "last_update": "2025-12-09T12:00:00Z"
+        }
+    },
+    {
+        "name": "Core gameplay",
+        "features": [
+            {
+                "name": "Game modes (Career, Sandbox, etc...)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Orbital mechanics",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional but WIP."
+            },
+            {
+                "name": "Patched conics",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional but WIP."
+            },
+            {
+                "name": "Time warp / Physics warp",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional but WIP."
+            },
+            {
+                "name": "Physics simulation",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Aerodynamics and atmospheres",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Kittens!",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Cute!"
+            },
+            {
+                "name": "Rocket construction",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Basic rocket builder in debug mode"
+            },
+            {
+                "name": "Attitude control and RCS",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional but WIP."
+            },
+            {
+                "name": "Staging",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Space center and launch complex",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Tech tree and science collection",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Missions and campaigns",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            }
+        ]
+    },
+    {
+        "name": "Orbital mechanics and trajectories",
+        "features": [
+            {
+                "name": "Maneuvering nodes",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional. Crude UI. Execution limited to one maneuvering node. (If multiple, none of them will execute)"
+            },
+            {
+                "name": "Orbital elements readouts (apoapsis, periapsis, etc...)",
+                "core": "ok",
+                "mod": "maybe",
+                "comment": "Functional. Crude UI. Some text overlapping. Modders working on this as well. [(Barney) KittenEngineerRedux](https://forums.ahwoo.com/threads/kitten-engineer-redux-ker.443/)"
+            },
+            {
+                "name": "Transfer window planner (porkchops)",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional"
+            },
+            {
+                "name": "Automatic maneuvers (circularice, rendezvous, etc...)",
+                "core": "no",
+                "mod": "ok",
+                "comment": "There is a modder working on this. \"ModNameGoesHere\" [(Barney) KittenEngineerRedux](https://forums.ahwoo.com/threads/kitten-engineer-redux-ker.443/)"
+            },
+            {
+                "name": "Encounter/flyby planning",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "N-body (Principia style)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Lagrange points and halo orbits",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Stationkeeping",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Ascension automation (PVG like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            }
+        ]
+    },
+    {
+        "name": "Aerodynamics and flight mechanics",
+        "features": [
+            {
+                "name": "Lift and drag",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Aerodynamics (FAR like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Heat simulation",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Parachutes",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Landing gear and steering",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Supersonic and hypersonic stability",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Stability analysis (FAR like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Atmospheric turbulence and winds",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Flight assistance",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on a mod for this. [(Dejvid) Avionics](https://forums.ahwoo.com/threads/avionics.560/)"
+            },
+            {
+                "name": "G-forces",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on a mod for this. [(AMPW) G Effects](https://forums.ahwoo.com/threads/g-effects.635/)"
+            }
+        ]
+    },
+    {
+        "name": "Parts, construction and robotics",
+        "features": [
+            {
+                "name": "Capsules",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Few capsules available, mainly the 3D models."
+            },
+            {
+                "name": "Space Planes",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(UriahGnu) Spaceplanes](https://forums.ahwoo.com/threads/spaceplanes-ssto-lv-wip.352/)"
+            },
+            {
+                "name": "Probe cores",
+                "core": "maybe",
+                "mod": "maybe",
+                "comment": "Some modders are working on this [(Thoteus) Sputnik, Luna, and Vega](https://forums.ahwoo.com/threads/probe-parts-plus-features-3-probes-sputnik-luna-and-vega-also-restores-stock-apollo-csm-and-gemini-6a.433/)"
+            },
+            {
+                "name": "Living spaces and habitats",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders are working on a similar concept. [(Kepeca) ONeilCylinder](https://forums.ahwoo.com/threads/oneil-cylinder-mod.395/)"
+            },
+            {
+                "name": "Avionics",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Fuel tanks",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some basic tanks and 3D models are ready."
+            },
+            {
+                "name": "Interstages (decouplers, separators, payload adapters)",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "First commits including fairings and interstages."
+            },
+            {
+                "name": "Fairings",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "First commits including fairings and interstages."
+            },
+            {
+                "name": "Cargo bays, service modules, payload mounts",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some work in progres the by KSA team"
+            },
+            {
+                "name": "Rover frames",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Struts",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on it. [(Chitak) KSAMiscParts](https://github.com/Chitak985/KSAMiscParts)"
+            },
+            {
+                "name": "Fuselages",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Nose cones",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Stack adapters",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Radial attachments",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some work in progres the by KSA team"
+            },
+            {
+                "name": "Mounting plates",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Launch clamps and towers",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Heat shields",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Launch escape system",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Flags",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Liquid engines",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some basic engines and 3D models."
+            },
+            {
+                "name": "Solid rocket boosters",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Few small SRB showcased (3D models)"
+            },
+            {
+                "name": "Jet engines",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Turboprop engines",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Exotic engines (ion, nuclear, ramjet, scramjet, etc.)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Ullage motors",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Vernier engines",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Deorbit motors",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Wings and control surfaces",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Fins",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Air intakes",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Reaction wheels",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "RCS thrusters and blocks",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional RCS."
+            },
+            {
+                "name": "Gimbal",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some 3D designs including gimbal showcased"
+            },
+            {
+                "name": "Wheels",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Landing legs and skids",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Parachutes",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Solar panels",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "RTGs",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Batteries",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Radiators",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Antennas",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Docking Ports",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Grabbing unit",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Robotic parts: hinges, rotors, pistons, etc.",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Science experiments",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Lights",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some work in progres the by KSA team"
+            },
+            {
+                "name": "Containers and slots",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Futuristic parts",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Action groups",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Rocket statistics (Δv, TWR, etc...)",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Basic statistics and gauges present."
+            },
+            {
+                "name": "Procedural parts",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            }
+        ]
+    },
+    {
+        "name": "Navigation, instruments and automation",
+        "features": [
+            {
+                "name": "Navball",
+                "core": "ok",
+                "mod": "maybe",
+                "comment": "Shader-based, monochrome navball with multiple modes. Some modders working on custom navballs [(ap0r) Colorful Navball](https://forums.ahwoo.com/threads/colorful-navball-sky-is-pale-blue-ground-is-pale-brown-v1-0.313/)"
+            },
+            {
+                "name": "Attitude readouts",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional."
+            },
+            {
+                "name": "SAS (Stability assists and automatic attitude)",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional, including a detailed UI panel."
+            },
+            {
+                "name": "RCS Maneuvering",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional"
+            },
+            {
+                "name": "Rocket statistics",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Basic statistics present."
+            },
+            {
+                "name": "Orbital parameters readouts",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Orbital parameters present."
+            },
+            {
+                "name": "Automatic maneuvers",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Automatic burns are functional."
+            },
+            {
+                "name": "Ascent profile planner",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Rocket control (Smart A.S.S. like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Alarm clock",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Telemetry and charts (Flight recorder)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Landing guidance and suicide burn",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Docking mode and automatic docking",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Flight computers and scripting (KOS like)",
+                "core": "no",
+                "mod": "ok",
+                "comment": "Modders working on this. [(tom_is_unlucky) KSASM v0.1.0](https://forums.ahwoo.com/threads/ksasm-v0-1-0.636/)"
+            },
+            {
+                "name": "Mission checklists",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Waypoints",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Ground tracking",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional."
+            },
+            {
+                "name": "Persistent rotation (off-loaded vessels)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Resource dashboard (Fuel, EC, water, etc...)",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some readouts available"
+            }
+        ]
+    },
+    {
+        "name": "Resources, ISRU and logistics",
+        "features": [
+            {
+                "name": "Multiple propellant types",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some work in progres the by KSA team."
+            },
+            {
+                "name": "Fuel crossfeed",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Resource transfer",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Resource harvesting (Space, surfaces)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "In-Situ Resource Utilization (ISRU)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Background resource simulation (off-loaded vessels)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Power generation and storage",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "In-Situ construction and printing (Stationeers like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Planetary logistics and supply routes",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Resource scanning and prospecting",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            }
+        ]
+    },
+    {
+        "name": "Communication and data",
+        "features": [
+            {
+                "name": "Line-of-sight communications",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Signal strength (Tx and Rx)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Data rate and transmission scheduling",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Signal delay",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Upgradeable ground stations",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Atmospheric reentry blackout",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Science transmission",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Directional antennas and pointing",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Data recorders and telemetry logs",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Data-links between vessels (Comms network)",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on something related [(General Meatsauce) RF Spectrum Mod](https://forums.ahwoo.com/threads/rf-spectrum-mod.570/)"
+            },
+            {
+                "name": "Radio Detection and Ranging (RADAR)",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on something related [(General Meatsauce) RF Spectrum Mod](https://forums.ahwoo.com/threads/rf-spectrum-mod.570/)"
+            },
+            {
+                "name": "Radio(Astronomy, Beacons, Collision detection, Signals intelligence)",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on something related [(General Meatsauce) RF Spectrum Mod](https://forums.ahwoo.com/threads/rf-spectrum-mod.570/)"
+            }
+        ]
+    },
+    {
+        "name": "Science, exploration and mapping",
+        "features": [
+            {
+                "name": "Science experiments",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Experimental parts",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Biomes",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Tech tree",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Celestial bodies scanning, surveying and mapping",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Asteroid and comets discovery and tracking",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Surface experiments",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "EVA science, crew science and surface samples.",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Long-term experiments",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Star systems and exoplanets discovery",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Exotic discoveries (pulsars, black holes, etc.)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Anomalies (Stellaris like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Artifacts and ancient civilizations",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            }
+        ]
+    },
+    {
+        "name": "Realism and simulation",
+        "features": [
+            {
+                "name": "Realistic solar system (RSS like)",
+                "core": "ok",
+                "mod": "maybe",
+                "comment": "A real solar system is used during development. Briar Thrain & tomservo are working on a tool that           collects real astronomical data (NASA Horizons) and converts it to KSA format [(Briar Thrain & tomservo) PEBKAC](https://meow.science.fail/pebkac/)"
+            },
+            {
+                "name": "N-body (Principia like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Life support (Kerbalism like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Fuels boil-off",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Radiation belts, solar storms",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Engine reliability and structural failures",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Part failures, like Parachute failures",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "G-limits for crew",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Crew proficiency and experience",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Day/Night thermal cycles",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Launch complex management",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Multiple space centers",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Space agency management and leaders",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Historic parts",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Ullage",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Single ignition engines",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Mission design (KSPTOT like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Remote control",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(GhentZ) KittenRemoteControl](https://forums.ahwoo.com/threads/kittenremotecontrol.463/)"
+            },
+            {
+                "name": "Parts degradation (solar panels, batteries, etc...)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Stage recovery",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Mission simulation",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Launch complexes textures (Cape Canaveral, etc...)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            }
+        ]
+    },
+    {
+        "name": "Visual, sound and immersion",
+        "features": [
+            {
+                "name": "High-res terrain and planets",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "A lot of planets have crisp textures"
+            },
+            {
+                "name": "Atmospheric scattering",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Functional"
+            },
+            {
+                "name": "Volumetric clouds",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Clouds present but WIP"
+            },
+            {
+                "name": "Flares",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Amazing flares are present."
+            },
+            {
+                "name": "City lights",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Auroras",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Planet shine and reflections",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Functional"
+            },
+            {
+                "name": "Thin-film interference",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Engine nozzles show this effect"
+            },
+            {
+                "name": "Engine plume visuals",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Implemented but WIP"
+            },
+            {
+                "name": "Reentry effects",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Sound is there during reentry. No plasma visuals yet."
+            },
+            {
+                "name": "IVA cockpits",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "First person EVA",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Regular EVA is possible. No first person."
+            },
+            {
+                "name": "Camera effects (shaking, etc...)",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Surface details (rocks, trees, craters,etc...)",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Dynamic and immersive music",
+                "core": "ok",
+                "mod": "maybe",
+                "comment": "Some cool music is already there. Some modders working on this. [(sillytrongooboo) KSP2 Music Replace](https://forums.ahwoo.com/threads/ksp2-music-replace.405/) [(Thoteus) GustavHolst](https://forums.ahwoo.com/threads/gustav-holsts-the-planets-orchestral-suite-soundtrack.386/)"
+            },
+            {
+                "name": "Sound effects",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Rudimentary sound effects are present."
+            },
+            {
+                "name": "Replays and ghosts flights",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Weapons and armament",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Custom HUD",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders are working on this. [(Uriah) AircraftHUD](https://drive.google.com/file/d/12ijGp8R32uOEJYat2-mLpvnqLkMQo7YB/view?usp=drive_link)"
+            },
+            {
+                "name": "Vapor cones",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Custom Gatonauts",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(Thoteus) CustomCatastronauts](https://forums.ahwoo.com/threads/custom-catastronaut-skins.543/) [(dandoesstuff) Kitten Ears!](https://forums.ahwoo.com/threads/kitten-ears.140/#post-2664)"
+            },
+            {
+                "name": "Discord integrations",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(rat in suit) KSADiscordRichPresence](https://forums.ahwoo.com/threads/discord-rich-presence.549/)"
+            },
+            {
+                "name": "Reasonably good memes",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(dandoesstuff) Everything is Scott Munley](https://forums.ahwoo.com/threads/everything-is-scott-munley.430/)"
+            },
+            {
+                "name": "Icons, favicons, desktop icons",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(averageksp) Multiple icons for your KSA shortcut on your desktop (.ico)](https://forums.ahwoo.com/threads/multiple-icons-for-your-ksa-shortcut-on-your-desktop-ico.464/#post-2145) [(henr1k) KSA Icon and flat Logo [CC 4.0]](https://forums.ahwoo.com/threads/ksa-icon-and-flat-logo-cc-4-0.496/) [(Planetary) My KSA Icon/Logo](https://forums.ahwoo.com/threads/my-ksa-icon-logo.525/) [(Infinite_Spaces.) Temporary Icon (.ico) files for KSA.](https://forums.ahwoo.com/threads/temporary-icon-ico-files-for-ksa.269/)"
+            },
+            {
+                "name": "dear imGui implot extension support",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "KSA team working on library integration. [(KSA) dear imGui implot extension](https://github.com/epezent/implot)"
+            }
+        ]
+    },
+    {
+        "name": "UI and QoL",
+        "features": [
+            {
+                "name": "Customizable keybinds",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional"
+            },
+            {
+                "name": "Controller support",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Forums and Discord have some info about controller profiles and bindings"
+            },
+            {
+                "name": "Custom control panels support",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Part catalog (search, tags, categories, etc...)",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Some work in progres the by KSA team"
+            },
+            {
+                "name": "Action groups",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Craft management(Versioning, folders, tags, etc...)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Tutorials and training missions",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Difficulty settings",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Revert flight",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Undo/redo, copy/paste on editor",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Mod management (CKAN)",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders are working on this. [(Awsomgamr999) KSAMM](https://spacedock.info/mod/4048/KSA%20Mod%20Manager%20(KSAMM) )"
+            },
+            {
+                "name": "UI scaling and DPI settings",
+                "core": "maybe",
+                "mod": "no",
+                "comment": "Settings - Interface"
+            },
+            {
+                "name": "Configurable UI (drag, hide, scale, etc...)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Accessibility options",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "In-game bug reporting with logs and screenshots",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Brutal.Monitor integrated on latest builds"
+            },
+            {
+                "name": "Decals",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Customizable toolbars",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Directly via imgui. Some modders working on this. [(MrJeranimo) ModMenu](https://forums.ahwoo.com/threads/modmenu.562/)"
+            },
+            {
+                "name": "Voice effects (Chatterer like)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Languages",
+                "core": "no",
+                "mod": "no",
+                "comment": "Some people are getting organized in the forums about this."
+            },
+            {
+                "name": "External Data Stream (RPC, Protobuf, etc...Telemachus like)",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders are working on this. No links yet"
+            },
+            {
+                "name": "Vessel switch",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Functional"
+            },
+            {
+                "name": "Celestials visited tracking",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(MrJeranimo) Celestial Charter](https://forums.ahwoo.com/threads/celestial-charter-a-completionists-dream.500/#post-2503)"
+            },
+            {
+                "name": "Game reloaders / Mods reloaders",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(TheRooster) SystemReloader](https://forums.ahwoo.com/threads/system-reloader-v0-1-0.551/)"
+            },
+            {
+                "name": "Ship teleportation debug option",
+                "core": "ok",
+                "mod": "maybe",
+                "comment": "Game core allows you teleport the ship for testing to multiple locations.Some modders working on this. [(UriahGnu) Launch Vehicle One (LV-1)](https://forums.ahwoo.com/threads/launch-vehicle-one-lv-1-wip.438/)"
+            }
+        ]
+    },
+    {
+        "name": "Celestial objects and systems",
+        "features": [
+            {
+                "name": "Multiple star systems",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Custom star systems are possible via configuration files. Some modders working on this. [(Thoteus) CustomMoonarSystem](https://forums.ahwoo.com/threads/alternate-reality-moonar-system-13-additional-moons-mynimas-saphina-kin-verbul-icar-strobok-insulus-rie-aphere-hex-resin-and-more.377/) [(Elowiny) JublioSystemKSA](https://forums.ahwoo.com/threads/the-jublio-system-1-0-1.427/) [(UriahGnu) Planet Only Systems (for poor people)](https://forums.ahwoo.com/threads/planet-only-systems-for-poor-people.550/) [(Plazma) KSP-Redux](https://forums.ahwoo.com/threads/ksp-redux.338/)"
+            },
+            {
+                "name": "Interstellar travel",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Binary systems",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Dwarf planets, minor bodies and irregular moons",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this."
+            },
+            {
+                "name": "Asteroids and comets",
+                "core": "ok",
+                "mod": "no",
+                "comment": "Already present but probably WIP."
+            },
+            {
+                "name": "Planetary rings",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this"
+            },
+            {
+                "name": "Tidal locking",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Axial tilt / Obliquity",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Precession",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Procedural planets",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on something similar in concept. [(Awsomgamr999) PolarEarth](https://forums.ahwoo.com/threads/polar-earth.204/#post-1019) [(Emu) RedDwarfSol](https://forums.ahwoo.com/threads/red-dwarf-sol.230/#post-1091)"
+            },
+            {
+                "name": "Simple API to create new planets",
+                "core": "ok",
+                "mod": "no",
+                "comment": "A clear interface is present to create new planets."
+            },
+            {
+                "name": "Underground structures (Caves, lava tubes)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Events (Impacts, storms, eclipses, auroras, etc...)",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            }
+        ]
+    },
+    {
+        "name": "Multiplayer and meta features",
+        "features": [
+            {
+                "name": "Cooperative / competitive multiplayer",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(RacerXx) KSA Multiplayer](https://forums.ahwoo.com/threads/ksa-multiplayer.637/)"
+            },
+            {
+                "name": "Competitive challenges",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Time-warp reconciliation",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Shared construction",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Space race",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Craft sharing",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Achievements and leaderboards",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Telemetry export and external dashboards",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(Awsomgamr999) StellarAnalytics](https://forums.ahwoo.com/threads/stellar-analytics.486/)"
+            },
+            {
+                "name": "Mission and contract designer",
+                "core": "no",
+                "mod": "no",
+                "comment": "No info yet."
+            },
+            {
+                "name": "Steam integration",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(sillytrongooboo) KSA Steam Page](https://forums.ahwoo.com/threads/ksa-steam-page.378/)"
+            },
+            {
+                "name": "Modding sandboxes",
+                "core": "no",
+                "mod": "maybe",
+                "comment": "Some modders working on this. [(MrJeranimo) TempDebug](https://forums.ahwoo.com/threads/tempdebug-v0-1-1-a-ksa-debug-mod.472/)"
+            }
+        ]
+    },
+    {
+        "name": "Modding resources",
+        "resources": [
+            {
+                "name": "KSA Modding API docs",
+                "url": "https://aaaaaa/bbbbbbb",
+                "url_name": "Not ready yet"
+            },
+            {
+                "name": "KSA Modding Discord",
+                "url": "https://discord.gg/nt4fK4QuTz",
+                "url_name": "KSA Modding Discord"
+            },
+            {
+                "name": "KSA Modding Wiki (Unofficial)",
+                "url": "https://modding.kittenspaceagency.wiki/",
+                "url_name": ">KSA Modding Wiki (Unofficial)"
+            },
+            {
+                "name": "StarMap mod loader",
+                "url": "https://github.com/StarMapLoader/StarMap",
+                "url_name": "StarMap mod loader"
+            }
+        ]
+    },
+    {
+        "name": "Community resources",
+        "resources": [
+            {
+                "name": "Discord",
+                "url": "https://discord.com/invite/kittenspaceagency/",
+                "url_name": "Join Discord"
+            },
+            {
+                "name": "RocketWerkz website",
+                "url": "https://rocketwerkz.com/",
+                "url_name": "Visit RocketWerkz website"
+            },
+            {
+                "name": "RocketWerkz Twitter",
+                "url": "https://x.com/rocketwerkz",
+                "url_name": ""
+            },
+            {
+                "name": "RocketWerkz YouTube",
+                "url": "https://www.youtube.com/rocketwerkz",
+                "url_name": ""
+            },
+            {
+                "name": "RocketWerkz Facebook",
+                "url": "https://www.facebook.com/rocketwerkz/",
+                "url_name": ""
+            },
+            {
+                "name": "RocketWerkz Twitch",
+                "url": "https://www.twitch.tv/rocketwerkz",
+                "url_name": ""
+            },
+            {
+                "name": "Ahwoo website",
+                "url": "https://ahwoo.com/",
+                "url_name": "Visit Ahwoo website (KSA download, Contributions, forums)"
+            },
+            {
+                "name": "Ahwoo Twitter",
+                "url": "https://x.com/Ahwoo_Official",
+                "url_name": ""
+            },
+            {
+                "name": "Ahwoo Instagram",
+                "url": "https://www.instagram.com/ahwoo_official/",
+                "url_name": ""
+            },
+            {
+                "name": "Ahwoo TikTok",
+                "url": "https://www.tiktok.com/@ahwoo_official",
+                "url_name": ""
+            },
+            {
+                "name": "Ahwoo KSA Forums",
+                "url": "https://forums.ahwoo.com/",
+                "url_name": ""
+            },
+            {
+                "name": "Ahwoo LinkedIn",
+                "url": "https://www.linkedin.com/company/ahwoo-official/",
+                "url_name": ""
+            }
+        ]
+    }
+]
