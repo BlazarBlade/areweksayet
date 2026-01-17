@@ -9,19 +9,19 @@ importers:
   .:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^6.2.4
+        specifier: ~6.2.4
         version: 6.2.4(rolldown-vite@7.2.5(@types/node@25.0.9))(svelte@5.46.4)
       '@tsconfig/svelte':
-        specifier: ^5.0.6
+        specifier: ~5.0.6
         version: 5.0.6
       '@types/node':
-        specifier: ^25.0.9
+        specifier: ~25.0.9
         version: 25.0.9
       svelte:
-        specifier: ^5.46.4
+        specifier: ~5.46.4
         version: 5.46.4
       svelte-check:
-        specifier: ^4.3.5
+        specifier: ~4.3.5
         version: 4.3.5(picomatch@4.0.3)(svelte@5.46.4)(typescript@5.9.3)
       typescript:
         specifier: ~5.9.3
