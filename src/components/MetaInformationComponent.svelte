@@ -2,9 +2,8 @@
     import type { MetaInformation } from '../util/featureDataProcessor';
 
     let { data } : { data: MetaInformation } = $props();
-    console.log(data);
 
-    const localDate = $derived(new Date(data.last_update).toLocaleString(undefined, {
+    const localDate = $derived(new Date(data.meta.last_update).toLocaleString(undefined, {
         year: 'numeric',
         month: 'long',
         day: 'numeric'

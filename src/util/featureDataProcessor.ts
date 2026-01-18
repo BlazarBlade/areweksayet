@@ -16,10 +16,14 @@ export interface Resource {
   url_name?: string;
 }
 
+export interface Meta {
+  last_update: string;
+}
+
 export interface MetaInformation {
   type: 'MetaInformation';
   name: string;
-  last_update: string;
+  meta: Meta;
 }
 
 export interface FeatureTable {
@@ -64,11 +68,12 @@ export function processFeatureData(rawData: any[]): TableInstance[] {
         })),
       };
     } else if ('meta' in item) {
-      console.log(item);
       return {
         type: 'MetaInformation',
         name: item.name,
-        last_update: item.meta.last_update,
+        meta: {
+          last_update: item.meta.last_update
+        },
       }
     }
     

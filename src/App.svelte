@@ -8,7 +8,6 @@
 
     const tables: TableInstance[] = processFeatureData(rawJson);
     const metaInformation = tables.find((table) => table.type === 'MetaInformation') as MetaInformation;
-    console.log(metaInformation);
 
     let isDark = $state(false);
     let globalLocked = $state(true);
@@ -56,6 +55,14 @@
 
     function exportAllToJSON() {
         const exportData = tables.map((table, index) => {
+            if (table.type === 'MetaInformation')
+            {
+                table.meta.last_update = new Date().toISOString();
+                return {
+                    name: table.name,
+                    meta: table.meta
+                }
+            }
             if (table.type === 'FeatureTable') {
                 return {
                     name: table.name,
